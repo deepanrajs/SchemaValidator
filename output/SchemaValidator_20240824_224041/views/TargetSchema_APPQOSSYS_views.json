@@ -1,0 +1,36 @@
+{
+    "TargetSchema_APPQOSSYS_views": {
+        "WLM_CLASSIFIER_PLAN_VIEW": {
+            "oper": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "nclsrs": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "clpcstr": {
+                "datatype": "varchar",
+                "length": 4000,
+                "is_nullable": null
+            },
+            "active": {
+                "datatype": "char",
+                "length": 1,
+                "is_nullable": null
+            },
+            "seqno": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "timestamp": {
+                "datatype": "date",
+                "is_nullable": null
+            },
+            "chksum": {
+                "datatype": "number",
+                "is_nullable": null
+            }
+        }
+    }
+}

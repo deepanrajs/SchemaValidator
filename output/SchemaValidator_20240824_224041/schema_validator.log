@@ -1,0 +1,49 @@
+2024-08-24 22:40:41,922 - Starting comparison for tables...
+2024-08-24 22:40:41,924 - 	Processing SYSTEM (source) table: WLM_CLASSIFIER_PLAN
+2024-08-24 22:40:41,942 - 	Processing APPQOSSYS (target) table: WLM_CLASSIFIER_PLAN
+2024-08-24 22:40:41,960 - SourceSchema_SYSTEM_tables schema saved to 'output\SchemaValidator_20240824_224041\tables\SourceSchema_SYSTEM_tables.json'.
+2024-08-24 22:40:41,963 - TargetSchema_APPQOSSYS_tables schema saved to 'output\SchemaValidator_20240824_224041\tables\TargetSchema_APPQOSSYS_tables.json'.
+2024-08-24 22:40:41,966 - SchemaDifferences schema saved to 'output\SchemaValidator_20240824_224041\tables\SchemaDifferences_tables.json'.
+2024-08-24 22:40:41,967 - Completed comparison for tables.
+Total processed: 1 SYSTEM (Source) tables
+Total processed: 1 APPQOSSYS (Target) tables
+
+2024-08-24 22:40:41,967 - Starting comparison for views...
+2024-08-24 22:40:41,968 - 	Processing SYSTEM (source) view: WLM_CLASSIFIER_PLAN_VIEW
+2024-08-24 22:40:41,970 - 	Processing SYSTEM (source) view: SQLPLUS_PRODUCT_PROFILE
+2024-08-24 22:40:41,973 - 	Processing APPQOSSYS (target) view: WLM_CLASSIFIER_PLAN_VIEW
+2024-08-24 22:40:41,974 - 	Processing APPQOSSYS (target) view: SQLPLUS_PRODUCT_PROFILE
+2024-08-24 22:40:41,979 - SourceSchema_SYSTEM_views schema saved to 'output\SchemaValidator_20240824_224041\views\SourceSchema_SYSTEM_views.json'.
+2024-08-24 22:40:41,983 - TargetSchema_APPQOSSYS_views schema saved to 'output\SchemaValidator_20240824_224041\views\TargetSchema_APPQOSSYS_views.json'.
+2024-08-24 22:40:41,987 - SchemaDifferences schema saved to 'output\SchemaValidator_20240824_224041\views\SchemaDifferences_views.json'.
+2024-08-24 22:40:41,987 - Completed comparison for views.
+Total processed: 2 SYSTEM (Source) views
+Total processed: 2 APPQOSSYS (Target) views
+
+2024-08-24 22:40:41,988 - Starting comparison for functions...
+2024-08-24 22:40:41,989 - 	Processing SYSTEM (source) function: FN_DATE
+2024-08-24 22:40:41,989 - 	Processing APPQOSSYS (target) function: FN_DATE
+2024-08-24 22:40:41,993 - SourceSchema_SYSTEM_functions schema saved to 'output\SchemaValidator_20240824_224041\functions\SourceSchema_SYSTEM_functions.json'.
+2024-08-24 22:40:41,996 - TargetSchema_APPQOSSYS_functions schema saved to 'output\SchemaValidator_20240824_224041\functions\TargetSchema_APPQOSSYS_functions.json'.
+2024-08-24 22:40:42,001 - SchemaDifferences schema saved to 'output\SchemaValidator_20240824_224041\functions\SchemaDifferences_functions.json'.
+2024-08-24 22:40:42,002 - Completed comparison for functions.
+Total processed: 1 SYSTEM (Source) functions
+Total processed: 1 APPQOSSYS (Target) functions
+
+2024-08-24 22:40:42,002 - Starting comparison for stored_procedures...
+2024-08-24 22:40:42,003 - 	Processing SYSTEM (source) stored_procedure: TEST
+2024-08-24 22:40:42,006 - 	Processing APPQOSSYS (target) stored_procedure: TEST
+2024-08-24 22:40:42,011 - SourceSchema_SYSTEM_stored_procedures schema saved to 'output\SchemaValidator_20240824_224041\stored_procedures\SourceSchema_SYSTEM_stored_procedures.json'.
+2024-08-24 22:40:42,016 - TargetSchema_APPQOSSYS_stored_procedures schema saved to 'output\SchemaValidator_20240824_224041\stored_procedures\TargetSchema_APPQOSSYS_stored_procedures.json'.
+2024-08-24 22:40:42,020 - SchemaDifferences schema saved to 'output\SchemaValidator_20240824_224041\stored_procedures\SchemaDifferences_stored_procedures.json'.
+2024-08-24 22:40:42,020 - Completed comparison for stored_procedures.
+Total processed: 1 SYSTEM (Source) stored_procedures
+Total processed: 1 APPQOSSYS (Target) stored_procedures
+
+2024-08-24 22:40:42,024 - Schema comparison report saved to 'output\SchemaValidator_20240824_224041\SchemaComparisonReport.md'.
+2024-08-24 22:40:42,027 - Schema comparison report saved to 'output\SchemaValidator_20240824_224041\SchemaComparisonReport.html'.
+2024-08-24 22:40:42,027 - Error retrieving Tables:
+2024-08-24 22:40:42,027 - TARGET - APPQOSSYS.SQLPLUS_PRODUCT_PROFILE
+2024-08-24 22:40:42,027 - TARGET - SYSTEM.FN_DATE
+2024-08-24 22:40:42,028 - TARGET - APPQOSSYS.FN_DATE
+2024-08-24 22:40:42,028 - Time taken: 0.11 seconds

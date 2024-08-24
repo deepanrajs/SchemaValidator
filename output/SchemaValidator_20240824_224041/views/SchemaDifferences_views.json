@@ -1,0 +1,7 @@
+{
+    "SchemaDifferences": {
+        "SQLPLUS_PRODUCT_PROFILE": [
+            "Missing in APPQOSSYS (target) schema"
+        ]
+    }
+}

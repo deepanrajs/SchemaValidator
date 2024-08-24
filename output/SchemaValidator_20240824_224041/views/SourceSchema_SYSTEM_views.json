@@ -1,0 +1,75 @@
+{
+    "SourceSchema_SYSTEM_views": {
+        "WLM_CLASSIFIER_PLAN_VIEW": {
+            "oper": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "nclsrs": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "active": {
+                "datatype": "char",
+                "length": 1,
+                "is_nullable": null
+            },
+            "clpcstr": {
+                "datatype": "varchar",
+                "length": 4000,
+                "is_nullable": null
+            },
+            "seqno": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "timestamp": {
+                "datatype": "date",
+                "is_nullable": null
+            },
+            "chksum": {
+                "datatype": "number",
+                "is_nullable": null
+            }
+        },
+        "SQLPLUS_PRODUCT_PROFILE": {
+            "product": {
+                "datatype": "varchar",
+                "length": 30,
+                "is_nullable": null
+            },
+            "userid": {
+                "datatype": "varchar",
+                "length": 128,
+                "is_nullable": null
+            },
+            "attribute": {
+                "datatype": "varchar",
+                "length": 240,
+                "is_nullable": null
+            },
+            "scope": {
+                "datatype": "varchar",
+                "length": 240,
+                "is_nullable": null
+            },
+            "numeric_value": {
+                "datatype": "number",
+                "is_nullable": null
+            },
+            "char_value": {
+                "datatype": "varchar",
+                "length": 240,
+                "is_nullable": null
+            },
+            "date_value": {
+                "datatype": "date",
+                "is_nullable": null
+            },
+            "long_value": {
+                "datatype": "long",
+                "is_nullable": null
+            }
+        }
+    }
+}
